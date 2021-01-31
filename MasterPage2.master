@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+        <asp:TreeView ID="TreeView1" runat="server" CssClass =   >
+            <Nodes>
+                <asp:TreeNode Text="Add Details" Value="Add Details">
+                    <asp:TreeNode Text="Add Batch" Value="Add Batch"></asp:TreeNode>
+                    <asp:TreeNode Text="Add Standard" Value="Add Standard"></asp:TreeNode>
+                    <asp:TreeNode Text="Add Subject" Value="Add Subject"></asp:TreeNode>
+                </asp:TreeNode>
+            </Nodes>
+        </asp:TreeView>
+        <br />
+    </div>
+    </form>
+</body>
+</html>
